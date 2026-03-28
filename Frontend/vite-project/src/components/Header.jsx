@@ -328,7 +328,7 @@ function CategoryPortalMenu({ btnRef, open, onEnter, onLeave, onClose, categorie
         ) : categories.length > 0 ? (
           <>
             <Link className="amz-cat-item all-cat" to="/categories" onClick={onClose}>
-              🗂️ All Categories
+               All Categories
             </Link>
             {categories.map((cat) => (
               <Link
